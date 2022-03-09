@@ -9,6 +9,7 @@ assertrue(searchbox.isDisplayed());
 
 }
 
-throws InterruptedException
-
-webDriver.findElement(By.id(""));
+@Test
+public void Tc2(){
+WebElement searchinput=webDriver.findElement(By.id(""));
+assertrue(searchbox.isDisplayed());
